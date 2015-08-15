@@ -1,0 +1,29 @@
+{
+  "name": "drycss",
+  "version": "1.0.0",
+  "description": "Avoid duplicated declaration block in css",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "npm run eslint && npm run jscs",
+    "eslint": "eslint ./bin/drycss.js ./lib/no-duplicate.js",
+    "jscs": "jscs ./bin/drycss.js ./lib/no-duplicate.js"
+  },
+  "author": "Alexandre Oger <oger.alexandre@gmail.com>",
+  "license": "ISC",
+  "directories": { "bin": "./bin" },
+  "bin": { "drycss": "./bin/drycss" },
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "commander": "^2.8.1",
+    "css": "^2.2.1",
+    "lodash": "^3.10.1",
+    "log-symbols": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "eslint-plugin-smells": "^1.0.1",
+    "jscs": "^2.1.0",
+    "mocha": "^2.2.5"
+  }
+}

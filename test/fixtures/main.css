@@ -1,0 +1,35 @@
+@import './external.css';
+
+* {
+  text-decoration: underline;
+}
+
+body {
+  background-color: red;
+  color: yellow;
+}
+
+p {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* dede */
+  .test {
+    background-color: red;
+    color: yellow;
+  }
+
+  #carousel {
+    position: relative;
+  }
+
+  .header {
+    background-color: red;
+    color: yellow;
+  }
+
+  hr {
+    position: relative;
+  }
+}
