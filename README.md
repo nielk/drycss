@@ -47,4 +47,4 @@ A lint tool to help point out duplicate declaration block.
 
 or
 
-`drycss --s main.css`
+`drycss -s main.css`
