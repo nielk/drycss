@@ -1,6 +1,6 @@
 # drycss
 
-A lint tool to help point out duplicate declaration bloc.
+A lint tool to help point out duplicate declaration block.
 
 ## Rule
 
@@ -48,11 +48,3 @@ A lint tool to help point out duplicate declaration bloc.
 or
 
 `drycss --s main.css`
-
-### Lint a CSS string
-
-`drycss --string "body { background-color: pink } p { color: black } h1 { background-color: pink } a { color: black }"`
-
-or
-
-`drycss --S "body { background-color: pink } p { color: black } h1 { background-color: pink } a { color: black }"`
