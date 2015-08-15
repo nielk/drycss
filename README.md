@@ -2,6 +2,14 @@
 
 A lint tool to help point out duplicate declaration block.
 
+## Installation
+
+local :
+`npm install drycss`
+
+global :
+`npm install drycss -g`
+
 ## Rule
 
 ```css
