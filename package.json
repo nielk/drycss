@@ -6,8 +6,8 @@
   "scripts": {
     "test": "mocha",
     "lint": "npm run eslint && npm run jscs",
-    "eslint": "eslint ./bin/drycss.js ./lib/no-duplicate.js",
-    "jscs": "jscs ./bin/drycss.js ./lib/no-duplicate.js"
+    "eslint": "eslint ./bin/drycss ./lib/no-duplicate.js ./lib/cli.js ./lib/format.js ./lib/options.js",
+    "jscs": "jscs ./bin/drycss ./lib/no-duplicate.js ./lib/cli.js ./lib/format.js ./lib/options.js"
   },
   "author": "Alexandre Oger <oger.alexandre@gmail.com>",
   "license": "ISC",
@@ -26,6 +26,7 @@
     "optionator": "^0.6.0"
   },
   "devDependencies": {
+    "chai": "^3.2.0",
     "eslint": "^1.1.0",
     "eslint-plugin-smells": "^1.0.1",
     "jscs": "^2.1.0",

@@ -20,7 +20,7 @@
     "prefer-const": 1,
     "max-statements":[2, 15],
     "max-depth":[1, 2],
-    "complexity":[2, 5],
+    "complexity":[2, 6],
     "max-len":[2, 85],
     "max-params":[2, 3],
     "max-nested-callbacks":[2, 1],
