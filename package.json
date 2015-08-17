@@ -1,6 +1,6 @@
 {
   "name": "drycss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avoid duplicated declaration block in css",
   "main": "index.js",
   "scripts": {
