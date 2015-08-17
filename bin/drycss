@@ -1,24 +1,11 @@
 #!/usr/bin/env node
-var fs = require('fs');
-var cli = require('commander');
-var noDuplicate = require('../lib/no-duplicate.js');
 
-var cssString = '';
+var cli = require('../lib/cli');
 
-cli
-  .version('0.0.1')
-  .option('-s, --source [source]', 'css source file')
-  // .option('-S, --string [string]', 'css string')
-  .parse(process.argv);
+var exitCode = 0;
 
-readCSSFile(cli.source);
+exitCode = cli.execute(process.argv);
 
-function readCSSFile(path) {
-
-  fs.readFile(path, 'utf8', function (err, data) {
-    if (err) {
-      throw err;
-    }
-    noDuplicate(data);
-  });
-}
+process.on('exit', function () {
+  process.exit(exitCode);
+});

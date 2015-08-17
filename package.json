@@ -11,14 +11,19 @@
   },
   "author": "Alexandre Oger <oger.alexandre@gmail.com>",
   "license": "ISC",
-  "directories": { "bin": "./bin" },
-  "bin": { "drycss": "./bin/drycss" },
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "drycss": "./bin/drycss"
+  },
   "dependencies": {
     "chalk": "^1.1.0",
     "commander": "^2.8.1",
     "css": "^2.2.1",
     "lodash": "^3.10.1",
-    "log-symbols": "^1.0.2"
+    "log-symbols": "^1.0.2",
+    "optionator": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "^1.1.0",
