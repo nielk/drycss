@@ -9,7 +9,7 @@
     "eslint": "eslint ./bin/drycss ./lib/no-duplicate.js ./lib/cli.js ./lib/format.js ./lib/options.js",
     "jscs": "jscs ./bin/drycss ./lib/no-duplicate.js ./lib/cli.js ./lib/format.js ./lib/options.js"
   },
-  "author": "Alexandre Oger <oger.alexandre@gmail.com>",
+  "author": "",
   "license": "ISC",
   "directories": {
     "bin": "./bin"
